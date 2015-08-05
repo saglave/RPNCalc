@@ -5,7 +5,7 @@ import main.java.Calc;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class TestSteps extends TestCase{
+public class CucumberSteps extends TestCase{
 //	Calc calc = new Calc();
 	String input;
 	@Given("^the inputs \"([^\"]*)\"$")
